@@ -200,13 +200,13 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: #f8b501;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #f8b501 !important;
   text-decoration: none;
 }
 
@@ -1929,7 +1929,7 @@ input[type='password']:focus,
 input[type='email']:focus,
 select:focus,
 textarea:focus {
-  border-color: #49bf9d;
+  border-color: #f8b501;
 }
 
 select {
@@ -2034,7 +2034,7 @@ input[type='radio']:checked + label:before {
 
 input[type='checkbox']:focus + label:before,
 input[type='radio']:focus + label:before {
-  border-color: #49bf9d;
+  border-color: #f8b501;
 }
 
 input[type='checkbox'] + label:before {
@@ -2556,8 +2556,8 @@ input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #f8b501;
+  color: #f8b501 !important;
 }
 
 input[type='submit']:active,
@@ -2565,8 +2565,8 @@ input[type='reset']:active,
 input[type='button']:active,
 .button:active {
   background-color: rgba(73, 191, 157, 0.1);
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #f8b501;
+  color: #f8b501 !important;
 }
 
 input[type='submit'].icon,
@@ -2609,8 +2609,8 @@ input[type='submit'].primary,
 input[type='reset'].primary,
 input[type='button'].primary,
 .button.primary {
-  background-color: #49bf9d;
-  border-color: #49bf9d;
+  background-color: #f8b501;
+  border-color: #f8b501;
   color: #ffffff !important;
 }
 
@@ -2684,13 +2684,14 @@ input[type='button']:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  /* background-color: #1f1815; */
+  background-color: #000000;
   background-attachment: scroll, scroll;
-  background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+  /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
   height: 100%;
   left: 0;
   padding: 4em 4em;
