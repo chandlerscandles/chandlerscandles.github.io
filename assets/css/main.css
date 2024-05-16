@@ -2686,7 +2686,7 @@ input[type='button']:disabled,
   -ms-justify-content: space-between;
   justify-content: space-between;
   /* background-color: #1f1815; */
-  background-color: #000000;
+  background-color: #080403;
   background-attachment: scroll, scroll;
   /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
   background-position: top left, top left;
