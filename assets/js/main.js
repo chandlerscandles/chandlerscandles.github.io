@@ -55,29 +55,29 @@
   // Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
   if (browser.name == 'ie' || browser.mobile) settings.parallax = false;
 
-  if (settings.parallax) {
-    breakpoints.on('<=medium', function () {
-      $window.off('scroll.strata_parallax');
-      $header.css('background-position', '');
-    });
+  // if (settings.parallax) {
+  //   breakpoints.on('<=medium', function () {
+  //     $window.off('scroll.strata_parallax');
+  //     $header.css('background-position', '');
+  //   });
 
-    breakpoints.on('>medium', function () {
-      $header.css('background-position', 'left 0px');
+  //   breakpoints.on('>medium', function () {
+  //     $header.css('background-position', 'left 0px');
 
-      $window.on('scroll.strata_parallax', function () {
-        $header.css(
-          'background-position',
-          'left ' +
-            -1 * (parseInt($window.scrollTop()) / settings.parallaxFactor) +
-            'px'
-        );
-      });
-    });
+  //     $window.on('scroll.strata_parallax', function () {
+  //       $header.css(
+  //         'background-position',
+  //         'left ' +
+  //           -1 * (parseInt($window.scrollTop()) / settings.parallaxFactor) +
+  //           'px'
+  //       );
+  //     });
+  //   });
 
-    $window.on('load', function () {
-      $window.triggerHandler('scroll');
-    });
-  }
+  //   $window.on('load', function () {
+  //     $window.triggerHandler('scroll');
+  //   });
+  // }
 
   // Main Sections: Two.
 

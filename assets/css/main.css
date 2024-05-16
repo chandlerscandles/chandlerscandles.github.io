@@ -1932,7 +1932,7 @@ textarea:focus {
   border-color: #f8b501;
 }
 
-select {
+/* select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
@@ -1940,7 +1940,7 @@ select {
   height: 2.75em;
   padding-right: 2.75em;
   text-overflow: ellipsis;
-}
+} */
 
 select option {
   color: #787878;
@@ -2690,8 +2690,8 @@ input[type='button']:disabled,
   background-image: linear-gradient(#0e0c09, #000000);
   background-attachment: scroll, scroll;
   /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
+  /* background-position: top left, top left; */
+  /* background-repeat: repeat, no-repeat; */
   background-size: auto, 150%;
   /* color: rgba(255, 255, 255, 0.5); */
   height: 100%;
@@ -3158,7 +3158,7 @@ body.is-touch .poptrox-popup .closer {
 
   #header {
     background-attachment: scroll;
-    background-position: top left, center center;
+    /* background-position: top left, center center; */
     background-size: auto, cover;
     left: auto;
     padding: 6em 4em;
@@ -3181,10 +3181,10 @@ body.is-touch .poptrox-popup .closer {
 
   #footer {
     background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url('images/overlay.png'), url('../../images/bg.jpg');
-    background-position: top left, bottom center;
-    background-repeat: repeat, no-repeat;
+    background-color: #000000;
+    /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
+    /* background-position: top left, bottom center; */
+    /* background-repeat: repeat, no-repeat; */
     background-size: auto, cover;
     bottom: auto;
     left: auto;
